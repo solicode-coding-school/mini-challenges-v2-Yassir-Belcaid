@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    text-align: center;
+    flex:1;
+    background-color: #f8f8f8;
+    padding:10px;
+    border-radius:5px;
+    margin:5px;
+}
+
+.summary-item h2 {
+    font-size: 16px;
+    margin-bottom:5px;
+    color: #666;
+}
+
+.summary-item p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#money-earned { 
+    color: #4CAF50; 
+}
+#money-available {
+     color: #2196F3; 
+    }
+#money-spent {
+     color: #F44336; 
+    }
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.input-fields {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#add-income-btn {
+     background-color: #4CAF50; 
+    }
+#add-expense-btn {
+     background-color: #F44336; 
+    }
+
+.lists-container {
+    display: flex;
+    gap: 20px;
+}
+
+.income-list, .expense-list {
+    flex: 1;
+ 
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #f8f8f8;
+}
+
+li  div {
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #666;
+}
+
+.delete-btn img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.delete-btn:hover img {
+    background-color: #ff1605;
+    opacity: 1;
+}

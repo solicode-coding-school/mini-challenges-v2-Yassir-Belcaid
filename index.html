@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="summary">
+            <div class="summary-item">
+                <h2>Money Earned</h2>
+                <p id="money-earned">$0</p>
+            </div>
+            <div class="summary-item">
+                <h2>Money Available</h2>
+                <p id="money-available">$0</p>
+            </div>
+            <div class="summary-item">
+                <h2>Money Spent</h2>
+                <p id="money-spent">$0</p>
+            </div>
+        </div>
+        <div class="input-section">
+            <div class="input-fields">
+                <input type="text" id="description" placeholder="Description">
+                <input type="number" id="amount" placeholder="Amount">
+            </div>
+            <div class="button-group">
+                <button id="add-income-btn" class="add-btn">Add Income</button>
+                <button id="add-expense-btn" class="add-btn">Add Expense</button>
+            </div>
+        </div>
+        <div class="lists-container">
+            <div class="income-list">
+                <h2>Income</h2>
+                <ul id="income-items">
+                    <!--  income li -->
+                </ul>
+            </div>
+            <div class="expense-list">
+                <h2>Expenses</h2>
+                <ul id="expense-items">
+                    <!-- expense li -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
